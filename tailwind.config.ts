@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        navy: "#10152f",
+        darkBlue: "#242f49",
+        blueGray: "#384358",
+        lightPeach: "#FFA586",
+        darkRed: "#851A2B",
+        maroon: "#541A2B",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +26,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
